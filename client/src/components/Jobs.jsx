@@ -4,8 +4,6 @@ import FilterCard from './FilterCard'
 import Job from './Job';
 import { useSelector } from 'react-redux';
 import { motion } from 'framer-motion';
-import HeroSection from './HeroSection';
-
 
 // const jobsArray = [1, 2, 3, 4, 5, 6, 7, 8];
 
@@ -29,8 +27,6 @@ const Jobs = () => {
     return (
         <div>
             <Navbar />
-            <HeroSection/>
-
             <div className='max-w-7xl mx-auto mt-5'>
                 <div className='flex gap-5'>
                     <div className='w-20%'>
