@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hack2Hire-ByteCraft
 **TEAM BYTE CRAFT:**
 
@@ -60,3 +61,6 @@ Ensure you have the following installed:
 Run this for both "client" and "server" folders.
 
 We’re excited to continue evolving FreelanceHub to better serve the freelancing community!
+=======
+# Freelance-Hub
+>>>>>>> fef27e1724fab8324157b5aa4d652ccb29785926
