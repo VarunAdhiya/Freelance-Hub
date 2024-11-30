@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://sparkly-platypus-b8d7ab.netlify.app/',
+    origin:'http://localhost:5173',
     credentials:true
 }
 
@@ -41,7 +41,7 @@ app.use('/api/tasks', taskRoutes);
 
 
 app.use(cors({
-    origin: "https://sparkly-platypus-b8d7ab.netlify.app/", // replace with your frontend URL
+    origin: "http://localhost:5173", // replace with your frontend URL
     credentials: true,  // allow cookies if needed
   }));
   

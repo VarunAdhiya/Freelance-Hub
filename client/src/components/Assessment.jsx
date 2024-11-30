@@ -145,7 +145,7 @@ function Assessment() {
   
     // Send data to the backend
     try {
-      const response = await fetch('https://bytecraft-backend-ujbo.onrender.com/api/v1/scores/add', {
+      const response = await fetch('http://localhost:5000/api/v1/scores/add', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
